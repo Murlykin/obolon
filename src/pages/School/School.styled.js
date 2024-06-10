@@ -22,8 +22,5 @@ export const SchoolP = styled.p`
 export const SchoolImg = styled.img`
   width: 260px;
   height: 180px;
-  //   @media (max-width: 768px) {
-  //     width: 490px;
-  //     margin: 0;
-  //   }
+
 `;
