@@ -7,12 +7,8 @@ export const Header = styled.header`
   justify-content: space-between;
   gap: 12px;
   padding: 8px 0;
-  margin-bottom: 16px;
+  // margin-bottom: 16px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
-
-  > nav {
-    display: flex;
-  }
 `;
 
 export const StyledLink = styled(NavLink)`
@@ -46,16 +42,30 @@ export const Logo = styled.img`
   height: 68px;
   margin-left: 40px;
       @media (max-width: 768px){
-      //  height: 20px; 
-       margin-left: 35px;
+       height: 40px; 
+       margin-left: 5px;
     }
 `;
 
 export const Nav = styled.nav`
-  margin-right: 40px;
-        @media (max-width: 768px){
-       margin-right: 0px;
+    display: none;
+    margin-left: auto;
+    //  padding-right: 15px;   
+    @media screen and (min-width:1200px) {
+    padding-right: 15px;
     }
+
+
+        @media screen and (min-width:768px) {
+            display: block;
+             margin-top: 10px;
+            
+        }
+    
+        @media screen and (min-width:1200px) {
+            display: flex;
+        }
+
 `;
 
 export const HeaderText = styled.p`
@@ -71,7 +81,7 @@ export const HeaderText = styled.p`
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
        font-weight: 400;
-       font-size: 26px;
+       font-size: 16px;
         }
 `;
 
@@ -92,8 +102,16 @@ export const Footer = styled.footer`
   font-size: 16px;
   line-height: 1.2;
    box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px 15px;
+           @media (max-width: 768px){
+          // width: 220px;
+          font-size: 10px;
+              height: 20px;
+      margin-top: 0;
+       padding-top: 2px;
+        }
 `;
 export const GoBackButton = styled(Link)`
   padding: 2px 0 18px;
   margin: 0 auto 0 20px;
+
 `;

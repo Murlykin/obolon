@@ -2,6 +2,7 @@ import { Routes, Route, Link, useLocation, Outlet,} from "react-router-dom";
 import { Home } from "../../pages/Home/Home";
 import { School } from "../../pages/School/School";
 import { Сontact } from "../../pages/Contact/Contact";
+import MobilMenu from '../../Mobil/index'
 // import { NotFound } from "../../pages/NotFound/NotFound";
 import logo from "../../images/favico-1.png";
 import {
@@ -27,9 +28,10 @@ export const App = () => {
             <Logo src={logo} alt="Logo" />
         </Link>
         <HeaderText>ДЮСШ ФК “Оболонь”</HeaderText>
-        
+         <MobilMenu/>
         <Nav>
-          {/* <StyledLink to="/" end> */}<StyledLink to="/school" state={{ from: location }}>
+         
+          <StyledLink to="/school" state={{ from: location }}>
             ДЮСШ
           </StyledLink>
                     <StyledLink to="/contact" state={{ from: location }}>
