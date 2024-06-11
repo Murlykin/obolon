@@ -19,7 +19,7 @@ export const BlogotWrap = styled.div`
   animation: ${fadeIn} 1.5s ease-out;
   @media (max-width: 768px) {
     width: 100%;
-    margin: 70px 0;
+    margin: 5px 0;
   }
 `;
 export const BlogoD1 = styled.div`
@@ -45,7 +45,6 @@ export const Logo = styled.img`
 `;
 export const Beck = styled.img`
 
- 
-  width: 1100px;
+  width: 450px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
 `;
