@@ -3,12 +3,16 @@ import { NavLink, Link } from "react-router-dom";
 
 export const Header = styled.header`
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+justify-content: center;
+align-items: center;
+
+  gap: 102px;
   padding: 8px 0;
   // margin-bottom: 16px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
+     @media (max-width: 768px){
+    gap: 40px;
+    }
 `;
 
 export const StyledLink = styled(NavLink)`
@@ -80,8 +84,9 @@ export const HeaderText = styled.p`
   color: green;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
-       font-weight: 400;
-       font-size: 26px;
+       font-weight: 700;
+       font-size: 28px;
+       
         }
 `;
 

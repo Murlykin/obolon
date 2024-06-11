@@ -1,10 +1,16 @@
 import BLogo from '../../images/bB.jpg';
-import { BlogotWrap, Logo } from './Home.styled';
+import BLogo1 from '../../images/iim.jpg';
+import { BlogotWrap, Logo, Beck, BlogoD1, BlogoD2 } from './Home.styled';
 
 export const Home = () => {
-  return (
+  return ( <>
     <BlogotWrap>
-      <Logo src={BLogo} alt="picture" />
+      <BlogoD1>
+      <Beck src={BLogo1} alt="picture" />
+      </BlogoD1>
+       <BlogoD2>
+      <Logo src={BLogo} alt="picture" /></BlogoD2>
     </BlogotWrap>
+  </>
   );
 };

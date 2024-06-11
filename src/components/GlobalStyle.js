@@ -94,7 +94,7 @@ img {
   left: 0;
   width: 0;
   // padding-left: 10px;
-  margin-top: 80px;
+  margin-top: -60px;
   overflow: hidden;
   height: 50px; 
   max-width: 310px;
@@ -121,5 +121,9 @@ img {
   flex-direction: column;
   // justify-content: space-between;
   height: 100%;
+}
+
+.navbar {
+  position: relative;
 }
 `;
