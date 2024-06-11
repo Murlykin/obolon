@@ -69,7 +69,7 @@ img {
 .main-nav__button {
   display: inline-flex;
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   border: none;
   background-color: transparent;
   line-height: 0;
@@ -109,6 +109,7 @@ img {
   width: 100%;
   height: 150px;
   transform: translateX(0px);
+
 }
 
 .mobile-menu__conteiner {

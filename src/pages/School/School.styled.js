@@ -4,7 +4,7 @@ export const SchoolD = styled.div`
   width: 1200px;
   margin: 40px 220px 50px;
   @media (max-width: 768px) {
-    width: 250px;
+    width: 100%;
     margin: 40px 0 50px;
   }
 `;

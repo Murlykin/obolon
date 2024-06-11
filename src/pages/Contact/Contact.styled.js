@@ -1,11 +1,11 @@
 import styled from "@emotion/styled";
 export const ContD = styled.div`
-    width: 1200px;
-    margin: 40px 220px 0;
-        @media (max-width: 768px){
-            width: 250px;
-            margin: 0;
-        }
+  width: 1200px;
+  margin: 40px 220px 0;
+  @media (max-width: 768px) {
+    width: 100%;
+    margin: 0;
+  }
 `;
 export const ContP = styled.p`
     margin-right: 20px;
@@ -20,7 +20,7 @@ export const ContP = styled.p`
 
 export const ContImg = styled.img`
   @media (max-width: 768px) {
-    width: 220px;
+    width: 100%;
     margin: 0;
   }
 `;

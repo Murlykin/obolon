@@ -81,7 +81,7 @@ export const HeaderText = styled.p`
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
        font-weight: 400;
-       font-size: 16px;
+       font-size: 26px;
         }
 `;
 
