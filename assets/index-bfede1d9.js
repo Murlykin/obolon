@@ -91,22 +91,24 @@ to{
   animation: ${mv} 1.5s ease-out;
   @media (max-width: 768px) {
     width: 100%;
-    margin: 5px 0;
+     height: 100%;
+    // margin: 15px 0 0 0;
+    // padding: 0 0 0 40px;
   }
 `,gv=fn.div`
- display: flex;
-  justify-content: center;
+
 display: none;
   @media (max-width: 768px) {
     width: 450px;
     display: block;
-    position: absolute;
+    position: relative;
     z-index: -100;
+   margin: 15px 0 0 50px;
   }
 `,yv=fn.div`
   @media (max-width: 768px) {
     display: none;
-     position: absolute;
+    position: absolute;
     z-index: 100;
   }
 `,wv=fn.img`
