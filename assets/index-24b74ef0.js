@@ -91,9 +91,7 @@ to{
   animation: ${mv} 1.5s ease-out;
   @media (max-width: 768px) {
     width: 100%;
-     height: 100%;
-    // margin: 5px 0 0 0;
-    // padding: 0 0 0 40px;
+    height: 100%;
   }
 `,gv=fn.div`
 
@@ -103,7 +101,7 @@ display: none;
     display: block;
     position: relative;
     z-index: -100;
-   margin: 45px 0 0 0;
+    margin: 45px 0 0 0;
   }
 `,yv=fn.div`
   @media (max-width: 768px) {
