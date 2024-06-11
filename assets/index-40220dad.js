@@ -92,7 +92,7 @@ to{
   @media (max-width: 768px) {
     width: 100%;
      height: 100%;
-    // margin: 15px 0 0 0;
+    // margin: 5px 0 0 0;
     // padding: 0 0 0 40px;
   }
 `,gv=fn.div`
@@ -103,7 +103,7 @@ display: none;
     display: block;
     position: relative;
     z-index: -100;
-   margin: 45px 0 0 5px;
+   margin: 45px 0 0 0;
   }
 `,yv=fn.div`
   @media (max-width: 768px) {
