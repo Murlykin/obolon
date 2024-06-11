@@ -94,6 +94,8 @@ to{
     margin: 5px 0;
   }
 `,gv=fn.div`
+ display: flex;
+  justify-content: center;
 display: none;
   @media (max-width: 768px) {
     width: 450px;
@@ -113,7 +115,7 @@ display: none;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
 `,xv=fn.img`
 
-  width: 450px;
+  width: 400px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
 `,Sv=()=>R.jsx(R.Fragment,{children:R.jsxs(vv,{children:[R.jsx(gv,{children:R.jsx(xv,{src:w1,alt:"picture"})}),R.jsx(yv,{children:R.jsx(wv,{src:y1,alt:"picture"})})]})}),kv=fn.div`
   width: 1200px;
