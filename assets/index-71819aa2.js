@@ -103,7 +103,7 @@ display: none;
     display: block;
     position: relative;
     z-index: -100;
-   margin: 15px 0 0 50px;
+   margin: 15px 0 0 10px;
   }
 `,yv=fn.div`
   @media (max-width: 768px) {
@@ -261,7 +261,7 @@ align-items: center;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
        font-weight: 700;
-       font-size: 18px;
+       font-size: 16px;
        
         }
 `,$g=tt.footer`
