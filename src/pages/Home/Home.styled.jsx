@@ -1,4 +1,4 @@
-import styled, {keyframes} from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 const fadeIn = keyframes`
 from{
@@ -19,9 +19,7 @@ export const BlogotWrap = styled.div`
   animation: ${fadeIn} 1.5s ease-out;
   @media (max-width: 768px) {
     width: 100%;
-     height: 100%;
-    // margin: 15px 0 0 0;
-    // padding: 0 0 0 40px;
+    height: 100%;
   }
 `;
 export const BlogoD1 = styled.div`
@@ -32,7 +30,7 @@ display: none;
     display: block;
     position: relative;
     z-index: -100;
-   margin: 45px 0 0 5px;
+    margin: 45px 0 0 0;
   }
 `;
 export const BlogoD2 = styled.div`
