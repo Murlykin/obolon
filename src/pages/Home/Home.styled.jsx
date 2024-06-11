@@ -32,7 +32,7 @@ display: none;
     display: block;
     position: relative;
     z-index: -100;
-   margin: 15px 0 0 50px;
+   margin: 15px 0 0 10px;
   }
 `;
 export const BlogoD2 = styled.div`
