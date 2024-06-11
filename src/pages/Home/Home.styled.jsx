@@ -23,6 +23,8 @@ export const BlogotWrap = styled.div`
   }
 `;
 export const BlogoD1 = styled.div`
+ display: flex;
+  justify-content: center;
 display: none;
   @media (max-width: 768px) {
     width: 450px;
@@ -45,6 +47,6 @@ export const Logo = styled.img`
 `;
 export const Beck = styled.img`
 
-  width: 450px;
+  width: 400px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
 `;
