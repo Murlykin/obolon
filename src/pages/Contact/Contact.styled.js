@@ -25,3 +25,11 @@ margin-top: 20px;
     margin: 0;
   }
 `;
+export const ContPBolt = styled.span`
+  font-family: "Montserrat";
+  color: green;
+  font-size: 18px;
+  line-height: 1.8;
+  font-synthesis: weight;
+  font-weight: bold;
+`;

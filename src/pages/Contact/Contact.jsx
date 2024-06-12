@@ -1,13 +1,13 @@
-import { ContD, ContP, ContImg } from "./Contact.styled";
+import { ContD, ContP, ContImg, ContPBolt } from "./Contact.styled";
 import logoC from "../../images/tt.jpg";
 export const Сontact = () => {
     return (
         <ContD>
-            <ContP>Для запису на тренування юнаків 2013, 2014, 2015 та 2016 р.н. у складі ДЮСШ ФК “Оболонь” звертайтесь за телефонами:</ContP><br></br>
-            <ContP> +380973280344 - старший тренер Олексій Карпук </ContP><br></br>
-            <ContP> +380974311115 - тренер Костянтин Коваленко </ContP><br></br><br></br>
+            <ContP>Для запису на тренування юнаків 2013, 2014, 2015 та 2016 р.н. у складі <ContPBolt>ДЮСШ ФК “Оболонь”</ContPBolt> звертайтесь за телефонами:</ContP><br></br>
+            <ContP> <ContPBolt>+380973280344</ContPBolt> - старший тренер <ContPBolt>Олексій Карпук</ContPBolt> </ContP><br></br>
+            <ContP> <ContPBolt>+380974311115</ContPBolt> - тренер <ContPBolt>Костянтин Коваленко </ContPBolt></ContP><br></br><br></br>
             <ContP>З приводу запису до СДЮСШ “Зміна-Оболонь” юнаків 2006, 2007, 2008, 2009, 2010, 2011 та 2012 р.н. звертайтесь за телефоном:</ContP>
-            <br></br><ContP> +380987477497 - керівник програми розвитку дитячо-юнацького футболу Олександр Павлюк</ContP>
+            <br></br><ContP> <ContPBolt>+380987477497</ContPBolt> - керівник програми розвитку дитячо-юнацького футболу <ContPBolt>Олександр Павлюк</ContPBolt></ContP>
             
             <ContImg src={logoC} alt="Logo" />
         </ContD>

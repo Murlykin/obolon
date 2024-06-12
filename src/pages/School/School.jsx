@@ -52,7 +52,7 @@ export const School = () => {
                     </TeamsDLegend>
                 </SchoolLegend>
             <SchoolP>З 2020 року <SchoolPBolt>ФК “Оболонь”</SchoolPBolt> відкрив нову сторінку в історії розвитку дитячо-юнацького футболу району. На базі футбольного клубу була створена власна ДЮСШ ФК “Оболонь”.
-               <br></br> На сьогодні склад <SchoolPBolt>ДЮСШ ФК “Оболонь”</SchoolPBolt> нараховує академічні групи для гравців 2013, 2014, 2015 та 2016 р.н.</SchoolP>
+                <br></br> На сьогодні склад <SchoolPBolt>ДЮСШ ФК “Оболонь”</SchoolPBolt> нараховує академічні групи для гравців <SchoolPBolt>2013</SchoolPBolt>, <SchoolPBolt>2014</SchoolPBolt>, <SchoolPBolt>2015</SchoolPBolt> та <SchoolPBolt>2016</SchoolPBolt> р.н.</SchoolP>
                 <ScoolContImg>
                     <SchoolImg src={C2013} alt="2013" />
                     <SchoolImg src={C2014} alt="2014" />
