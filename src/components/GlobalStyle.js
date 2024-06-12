@@ -126,4 +126,20 @@ img {
 .navbar {
   position: relative;
 }
+:root {
+  --text-color: #212121;
+  --beckground-color: #80da7c;
+  --text-color-p: #757575;
+  --body-background-color: #ffffff;
+  --button-hover-focus: #80da7c;
+  --footer-bacground-color: #2f303a;
+  --teams-bacground-color: #f5f4fa;
+  --border-color: #eeeeee;
+  --icone-color: #afb1b8;
+  --icone-bg-color: #f5f4fa;
+  --timing-functione: cubic-bezier(0.4, 0, 0.2, 1);
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+  /* --technical-color: #ed0c0c; */
+}
 `;

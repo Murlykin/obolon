@@ -19,6 +19,7 @@ export const ContP = styled.p`
 `;
 
 export const ContImg = styled.img`
+margin-top: 20px;
   @media (max-width: 768px) {
     width: 100%;
     margin: 0;
