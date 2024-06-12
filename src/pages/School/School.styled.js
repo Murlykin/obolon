@@ -133,7 +133,7 @@ export const TeamD = styled.ul`
 `;
 export const TeamsDIrems = styled.li`
   list-style: none;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
         @media screen and (min-width:768px) {
 background-color: var(--body-background-color);

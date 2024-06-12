@@ -41,12 +41,14 @@ export const BlogoD2 = styled.div`
   }
 `;
 export const Logo = styled.img`
-
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
   width: 1100px;
-  box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
+
 `;
 export const Beck = styled.img`
-
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
   width: 400px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
 `;
