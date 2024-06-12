@@ -32,6 +32,14 @@ export const SchoolP = styled.p`
   font-size: 16px;
   line-height: 1.6;
 `;
+export const SchoolPBolt = styled.span`
+  font-family: "Montserrat";
+  color: green;
+  font-size: 18px;
+  line-height: 1.8;
+  font-synthesis: weight;
+  font-weight: bold;
+`;
 export const SchoolLegend = styled.div`
   display: flex;
   justify-content: center;

@@ -1,6 +1,6 @@
 // import BLogo from '../../images/BLogo.jpg';
 import {  SchoolP, SchoolD,  TeamsContainer, TeamsHeder, TeamsText, TeamsSochmed,
-    TeamsItem, TeamsLinks, TeamsSvg, TeamsDIrems, SchoolTeams, SchoolLegend, TeamsDLegend, SchoolImg, ScoolContImg, ContImg } from './School.styled';
+    TeamsItem, TeamsLinks, TeamsSvg, TeamsDIrems, SchoolTeams, SchoolLegend, TeamsDLegend, SchoolImg, ScoolContImg, ContImg, SchoolPBolt } from './School.styled';
 import Karpuk from "../../images/Karpuk.jpg";
 import Kovalenko from "../../images/Kovalenko.jpg";
 import Icon from '../../images/icons.svg';
@@ -17,7 +17,7 @@ import logoC from "../../images/tt.jpg";
 
 export const School = () => {
     return (
-        <SchoolD>< SchoolP>ФК "Оболонь" пишається своєю довгою історією виховання юнаків для першої команди клубу, професійного футболу загалом і багатьох інших сфер спорту та життя. 
+        <SchoolD>< SchoolP><SchoolPBolt>ФК “Оболонь”</SchoolPBolt> пишається своєю довгою історією виховання юнаків для першої команди клубу, професійного футболу загалом і багатьох інших сфер спорту та життя. 
             Ось лише кілька імен футболістів, які розпочинали кар’єру на Оболоні: 
                 <SchoolLegend>
                     <TeamsDLegend>
@@ -51,8 +51,8 @@ export const School = () => {
                         </TeamsContainer>
                     </TeamsDLegend>
                 </SchoolLegend>
-            <SchoolP>З 2020 року ФК “Оболонь” відкрив нову сторінку в історії розвитку дитячо-юнацького футболу району. На базі футбольного клубу була створена власна ДЮСШ ФК “Оболонь”.
-                На сьогодні склад ДЮСШ ФК “Оболонь” нараховує академічні групи для гравців 2013, 2014, 2015 та 2016 р.н.</SchoolP>
+            <SchoolP>З 2020 року <SchoolPBolt>ФК “Оболонь”</SchoolPBolt> відкрив нову сторінку в історії розвитку дитячо-юнацького футболу району. На базі футбольного клубу була створена власна ДЮСШ ФК “Оболонь”.
+               <br></br> На сьогодні склад <SchoolPBolt>ДЮСШ ФК “Оболонь”</SchoolPBolt> нараховує академічні групи для гравців 2013, 2014, 2015 та 2016 р.н.</SchoolP>
                 <ScoolContImg>
                     <SchoolImg src={C2013} alt="2013" />
                     <SchoolImg src={C2014} alt="2014" />
