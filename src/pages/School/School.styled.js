@@ -16,9 +16,12 @@ export const ScoolContImg = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 20px;
+  
 `;
 export const SchoolImg = styled.img`
   width: 500px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
 `;
 
 export const SchoolP = styled.p`
@@ -52,6 +55,8 @@ margin-left: 0px;
 `;
 export const TeamsDLegend = styled.li`
   list-style: none;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
         @media screen and (min-width:768px) {
 background-color: var(--body-background-color);
         @media screen and (min-width:1200px) {
@@ -128,6 +133,8 @@ export const TeamD = styled.ul`
 `;
 export const TeamsDIrems = styled.li`
   list-style: none;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
         @media screen and (min-width:768px) {
 background-color: var(--body-background-color);
         @media screen and (min-width:1200px) {
