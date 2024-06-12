@@ -20,8 +20,13 @@ export const ScoolContImg = styled.div`
 `;
 export const SchoolImg = styled.img`
   width: 500px;
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+  &:hover,
+  &:focus {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  }
 `;
 
 export const SchoolP = styled.p`
@@ -55,14 +60,19 @@ margin-left: 0px;
 `;
 export const TeamsDLegend = styled.li`
   list-style: none;
-    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
-  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+  //   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.3);
+  // filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
         @media screen and (min-width:768px) {
 background-color: var(--body-background-color);
         @media screen and (min-width:1200px) {
 background-color: var(--body-background-color);
 width: 230px;
 }
+  &:hover,
+  &:focus {
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  }
 `;
 export const SchoolTeams = styled.div`
   display: flex;
@@ -133,14 +143,19 @@ export const TeamD = styled.ul`
 `;
 export const TeamsDIrems = styled.li`
   list-style: none;
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  // box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  // filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
         @media screen and (min-width:768px) {
 background-color: var(--body-background-color);
         @media screen and (min-width:1200px) {
 background-color: var(--body-background-color);
 width: 270px;
 }
+  &:hover,
+  &:focus {
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  }
 `;
 
 export const TeamsContainer = styled.div`
