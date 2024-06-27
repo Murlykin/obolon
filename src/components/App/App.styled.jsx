@@ -16,7 +16,7 @@ export const Header = styled.header`
   // margin-bottom: 16px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
     @media (max-width: 768px){
-    // gap: 40px;
+    // gap: 10px;
     }
 `;
 export const HeaderDecor = styled.div`
@@ -75,7 +75,7 @@ top: 10px;
   margin-left: 0px;
         @media (max-width: 768px){
        height: 120px; 
-       margin-left: 5px;
+      //  margin-left: 5px;
        top: 0px; 
     }
 `;
@@ -115,7 +115,7 @@ export const HeaderText = styled.p`
   text-shadow: 5px 5px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
       line-height: 1.2;
-       font-size: 12px;
+       font-size: 14px;
        padding-left: 120px;
         }
 `;
