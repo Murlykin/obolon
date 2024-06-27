@@ -242,21 +242,32 @@ export const SchoolBeck = styled.img`
   position: absolute;
   z-index: -1;
   margin: 300px 0 0 -320px;
-
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 export const SchoolBeck1 = styled.img`
   position: absolute;
   z-index: -12;
   margin: 350px 0 0 1120px;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 export const SchoolBeck2 = styled.img`
   position: absolute;
   z-index: -2;
   margin: -430px 0 0 -850px;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 export const SchoolBeck3 = styled.img`
   position: absolute;
   z-index: -1;
   margin: 120px 0 0 380px;
   width: 6%;
+    @media (max-width: 768px) {
+display: none;
+  }
 `;

@@ -16,7 +16,7 @@ export const Header = styled.header`
   // margin-bottom: 16px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
     @media (max-width: 768px){
-    gap: 40px;
+    // gap: 40px;
     }
 `;
 export const HeaderDecor = styled.div`
@@ -34,6 +34,7 @@ export const HeaderDecor = styled.div`
     @media (max-width: 768px){
       background-image: url(${backgroundMobil});
       padding: 12px 0;
+      gap: 80px;
     }
 `;
 export const StyledLink = styled(NavLink)`
