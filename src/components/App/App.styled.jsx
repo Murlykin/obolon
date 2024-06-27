@@ -117,7 +117,7 @@ export const HeaderText = styled.p`
   text-shadow: 5px 5px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
         line-height: 1.2;
-        font-size: 20px;
+        font-size: 14px;
         padding-left: 120px;
         flex-direction: column;
         }
