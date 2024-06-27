@@ -34,7 +34,7 @@ export const HeaderDecor = styled.div`
     @media (max-width: 768px){
       background-image: url(${backgroundMobil});
       padding: 12px 0;
-      gap: 80px;
+      gap: 40px;
     }
 `;
 export const StyledLink = styled(NavLink)`
