@@ -28,10 +28,10 @@ import {  useLocation } from "react-router-dom";
 <nav ref={ref} className="navbar">
       <button className="main-nav__button " onClick={() => setNavbarOpen((prev) => !prev)}>
       {navbarOpen ? (
-    <MdClose style={{ width: '32px', height: '32px' }} />
+    <MdClose style={{ width: '32px', height: '32px', color: '#013919'}} />
   ) : (
     <FiMenu className="main-nav__icone--menu"
-      style={{ width: '32px', height: '32px', }} />
+      style={{ width: '32px', height: '32px', color: '#013919'}} />
   )}
       </button>
     

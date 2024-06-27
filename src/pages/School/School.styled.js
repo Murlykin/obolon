@@ -5,7 +5,7 @@ export const SchoolD = styled.div`
   margin: 40px 220px 50px;
   @media (max-width: 768px) {
     width: 100%;
-    margin: 40px 0 50px;
+    margin: 50px 0 50px;
   }
 `;
 
@@ -235,4 +235,28 @@ export const ContImg = styled.img`
     width: 100%;
     margin: 0;
   }
+`;
+
+
+export const SchoolBeck = styled.img`
+  position: absolute;
+  z-index: -1;
+  margin: 300px 0 0 -320px;
+
+`;
+export const SchoolBeck1 = styled.img`
+  position: absolute;
+  z-index: -12;
+  margin: 350px 0 0 1120px;
+`;
+export const SchoolBeck2 = styled.img`
+  position: absolute;
+  z-index: -2;
+  margin: -430px 0 0 -850px;
+`;
+export const SchoolBeck3 = styled.img`
+  position: absolute;
+  z-index: -1;
+  margin: 120px 0 0 380px;
+  width: 6%;
 `;

@@ -5,22 +5,23 @@ export const StyledLink = styled(NavLink)`
   padding: 4px 12px;
   border-radius: 4px;
   text-decoration: none;
-  color: black;
+  color: #013919;
   font-family: "Montserrat";
   // font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;
-margin: 0 auto;
+  margin: 0 auto;
   @media (max-width: 768px) {
     margin-right: 4px;
     padding: 0px 4px;
     // font-weight: 400;
     font-size: 12px;
-
   }
-
+  &:hover {
+    color: white;
+  }
   &.active {
     color: white;
     background-color: #ff6c00;

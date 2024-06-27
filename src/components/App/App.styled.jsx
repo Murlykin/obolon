@@ -1,29 +1,50 @@
 import styled from "@emotion/styled";
 import { NavLink, Link } from "react-router-dom";
+import background from "../../images/stripes.png";
+import backgroundMobil from "../../images/stripes1.png";
+
 
 export const Header = styled.header`
   display: flex;
-justify-content: center;
-align-items: center;
 
-  gap: 102px;
-  padding: 8px 0;
+  // justify-content: center;
+  align-items: center;
+  background-color: green;
+  // gap: 102px;
+  padding: 8px 0 0 0;
+  
   // margin-bottom: 16px;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
-     @media (max-width: 768px){
+    @media (max-width: 768px){
     gap: 40px;
     }
 `;
-
+export const HeaderDecor = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  gap: 90px;
+  background-image: url(${background });
+  padding: 8px 0;
+  background-repeat: no-repeat;
+  // margin-bottom: 16px;
+  box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px -15px;
+    @media (max-width: 768px){
+      background-image: url(${backgroundMobil});
+      padding: 12px 0;
+    }
+`;
 export const StyledLink = styled(NavLink)`
   margin-right: 20px;
   padding: 4px 12px;
   border-radius: 4px;
   text-decoration: none;
-  color: black;
+  color: #013919;
   font-family: "Montserrat";
   // font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;
@@ -35,7 +56,9 @@ export const StyledLink = styled(NavLink)`
           font-size: 12px;
           text-align: center;
     }
-
+&:hover {
+color: white;
+}
   &.active {
     color: white;
     background-color: #c2272d;
@@ -43,11 +66,16 @@ export const StyledLink = styled(NavLink)`
 `;
 
 export const Logo = styled.img`
-  height: 68px;
-  margin-left: 40px;
-      @media (max-width: 768px){
-       height: 40px; 
+position: absolute;
+z-index: 10;
+top: 10px; 
+  left: 40px;
+  height: 200px;
+  margin-left: 0px;
+        @media (max-width: 768px){
+       height: 120px; 
        margin-left: 5px;
+       top: 0px; 
     }
 `;
 
@@ -73,20 +101,21 @@ export const Nav = styled.nav`
 `;
 
 export const HeaderText = styled.p`
-  text-align: center;
-  align-items: center;
+  // text-align: center;
+  // align-items: center;
+  padding-left: 300px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.2;
   text-transform: uppercase;
-  color: green;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: #ffff;
+  text-shadow: 5px 5px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
-       font-weight: 700;
-       font-size: 16px;
-       
+      line-height: 1.4;
+       font-size: 14px;
+       padding-left: 100px;
         }
 `;
 
@@ -106,7 +135,8 @@ export const Footer = styled.footer`
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
-   box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px 15px;
+  color: #013919;
+  box-shadow: rgba(0, 0, 0, 0.27) 0px 18px 20px 15px;
            @media (max-width: 768px){
           // width: 220px;
           font-size: 10px;

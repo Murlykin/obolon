@@ -4,7 +4,7 @@ export const ContD = styled.div`
   margin: 40px 220px 0;
   @media (max-width: 768px) {
     width: 100%;
-    margin: 0;
+    margin: 50px 0 50px;
   }
 `;
 export const ContP = styled.p`

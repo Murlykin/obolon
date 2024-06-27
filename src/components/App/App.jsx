@@ -4,9 +4,10 @@ import { School } from "../../pages/School/School";
 import { Сontact } from "../../pages/Contact/Contact";
 import MobilMenu from '../../Mobil/index'
 // import { NotFound } from "../../pages/NotFound/NotFound";
-import logo from "../../images/favico-1.png";
+import logo from "../../images/loGo.png";
 import {
   Header,
+  HeaderDecor,
   Nav,
   StyledLink,
   Logo,
@@ -23,7 +24,7 @@ export const App = () => {
   return (
     <>
       <Header>
-    
+    <HeaderDecor>
         <Link to="/">
             <Logo src={logo} alt="Logo" />
         </Link>
@@ -38,7 +39,8 @@ export const App = () => {
             Контакти
           </StyledLink>
           <StyledLink to="https://fc.obolon.ua/" >ФК “Оболонь”</StyledLink>
-        </Nav>
+          </Nav>
+          </HeaderDecor>
       </Header>
       <Suspense fallback={<div>Loading...</div>}>
         <Outlet />
