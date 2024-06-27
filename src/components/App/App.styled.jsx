@@ -118,7 +118,7 @@ export const HeaderText = styled.p`
         @media (max-width: 768px){
         line-height: 1.2;
         font-size: 14px;
-        padding-left: 120px;
+        padding-left: 140px;
         flex-direction: column;
         }
 `;
