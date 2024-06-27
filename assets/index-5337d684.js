@@ -500,8 +500,10 @@ top: 10px;
         }
 
 `,hy=He.p`
-  // text-align: center;
-  // align-items: center;
+ display: flex;
+ text-align: center;
+  align-items: center;
+  gap: 10px;
   padding-left: 300px;
   font-family: "Montserrat";
   font-style: normal;
@@ -513,8 +515,9 @@ top: 10px;
   text-shadow: 5px 5px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
       line-height: 1.2;
-       font-size: 12px;
+       font-size: 20px;
        padding-left: 120px;
+        flex-direction: column;
         }
 `,my=He.footer`
   text-align: center;
@@ -545,7 +548,7 @@ top: 10px;
   padding: 2px 0 18px;
   margin: 0 auto 0 20px;
 
-`;const ql={HOME:"/",SCHOOL:"/school",CONTACT:"/contact"},gy=()=>{const e=Mn();return v.jsxs(v.Fragment,{children:[v.jsx(cy,{children:v.jsxs(fy,{children:[v.jsx(ou,{to:"/",children:v.jsx(dy,{src:ay,alt:"Logo"})}),v.jsx(hy,{children:"ДЮСШ ФК “Оболонь”"}),v.jsx(ly,{}),v.jsxs(py,{children:[v.jsx(Jl,{to:"/school",state:{from:e},children:"ДЮСШ"}),v.jsx(Jl,{to:"/contact",state:{from:e},children:"Контакти"}),v.jsx(Jl,{to:"https://fc.obolon.ua/",children:"ФК “Оболонь”"})]})]})}),v.jsx(P.Suspense,{fallback:v.jsx("div",{children:"Loading..."}),children:v.jsx(wg,{})}),v.jsxs(kg,{children:[v.jsx(ii,{path:ql.HOME,element:v.jsx($1,{})}),v.jsx(ii,{path:ql.SCHOOL,element:v.jsx(iv,{})}),v.jsx(ii,{path:ql.CONTACT,element:v.jsx(ty,{})})]}),v.jsx(my,{children:" © Copyright 2020-2024 "})]})};const vy=P1`
+`;const ql={HOME:"/",SCHOOL:"/school",CONTACT:"/contact"},gy=()=>{const e=Mn();return v.jsxs(v.Fragment,{children:[v.jsx(cy,{children:v.jsxs(fy,{children:[v.jsx(ou,{to:"/",children:v.jsx(dy,{src:ay,alt:"Logo"})}),v.jsxs(hy,{children:[v.jsx("div",{children:"ДЮСШ"})," ",v.jsx("div",{children:"ФК “Оболонь”"})]}),v.jsx(ly,{}),v.jsxs(py,{children:[v.jsx(Jl,{to:"/school",state:{from:e},children:"ДЮСШ"}),v.jsx(Jl,{to:"/contact",state:{from:e},children:"Контакти"}),v.jsx(Jl,{to:"https://fc.obolon.ua/",children:"ФК “Оболонь”"})]})]})}),v.jsx(P.Suspense,{fallback:v.jsx("div",{children:"Loading..."}),children:v.jsx(wg,{})}),v.jsxs(kg,{children:[v.jsx(ii,{path:ql.HOME,element:v.jsx($1,{})}),v.jsx(ii,{path:ql.SCHOOL,element:v.jsx(iv,{})}),v.jsx(ii,{path:ql.CONTACT,element:v.jsx(ty,{})})]}),v.jsx(my,{children:" © Copyright 2020-2024 "})]})};const vy=P1`
 
 body {
  
