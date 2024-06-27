@@ -102,8 +102,10 @@ export const Nav = styled.nav`
 `;
 
 export const HeaderText = styled.p`
-  // text-align: center;
-  // align-items: center;
+ display: flex;
+ text-align: center;
+  align-items: center;
+  gap: 10px;
   padding-left: 300px;
   font-family: "Montserrat";
   font-style: normal;
@@ -115,8 +117,9 @@ export const HeaderText = styled.p`
   text-shadow: 5px 5px 3px rgba(0,0,0,0.3);
         @media (max-width: 768px){
       line-height: 1.2;
-       font-size: 12px;
+       font-size: 20px;
        padding-left: 120px;
+        flex-direction: column;
         }
 `;
 

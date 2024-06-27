@@ -28,7 +28,7 @@ export const App = () => {
         <Link to="/">
             <Logo src={logo} alt="Logo" />
         </Link>
-        <HeaderText>ДЮСШ ФК “Оболонь”</HeaderText>
+        <HeaderText><div>ДЮСШ</div> <div>ФК “Оболонь”</div></HeaderText>
          <MobilMenu/>
         <Nav>
          
