@@ -77,7 +77,7 @@ export const School = () => {
                     <img src={Karpuk} alt="oleksei-karpuk" />
                     <TeamsContainer>
                         <TeamsHeder>Олексій Карпук</TeamsHeder>
-                        <TeamsText lang="en">Старший тренер</TeamsText>
+                        <TeamsText lang="en">Тренер</TeamsText>
                         <TeamsSochmed >
                             <TeamsItem>
                                 <TeamsLinks>

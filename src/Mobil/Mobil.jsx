@@ -19,6 +19,7 @@ import {  useLocation } from "react-router-dom";
       }
     };
     document.addEventListener('mousedown', handler);
+    
     return () => {
       // Cleanup the event listener
       document.removeEventListener('mousedown', handler);
